@@ -52,29 +52,29 @@ function draw() {
 
    if (frameCount % 80 == 0) {
      if (select_sprites == 1) {
-       createApples();
+        createApples();
      } else if (select_sprites == 2) {
-       createOrange();
+        createOrange();
      }
    }
 
    if (frameCount / 80 == 0) {
      if (select_sprites == 1) {
-       createApples();
+        createApples();
      } else if (select_sprites == 2) {
-       createOrange();
+        createOrange();
      }else {
-       createRed();
+        createRed();
      }
    }
 
    if (frameCount % 80 = 0) {
      if (select_sprites == 1) {
-       createApples();
+        createApples();
      } else if (select_sprites == 2) {
-       createOrange();
+        createOrange();
      }else {
-       createRed();
+        createRed();
      }
    }
 
@@ -83,11 +83,11 @@ function draw() {
 }
 
 function createApples() {
-apple = createSprite(random(50, 350),40, 10, 10);
-apple.addImage(appleImg);
-apple.scale=0.07;
-apple.velocityY = 3;
-apple.lifetime = 150;
+ apple = createSprite(random(50, 350),40, 10, 10);
+ apple.addImage(appleImg);
+ apple.scale=0.07;
+ apple.velocityY = 3;
+ apple.lifetime = 150;
   
 }
 
